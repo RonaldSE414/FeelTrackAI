@@ -125,7 +125,6 @@ src
 ├── dao
 │   └── UsuarioDAO.java
 │
-├── feeltrackia
 │
 ├── model
 │   ├── AnaliseTextoIA.java
