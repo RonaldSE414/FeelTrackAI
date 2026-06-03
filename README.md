@@ -120,7 +120,8 @@ src
 │
 ├── controller
 │   ├── CadastroController.java
-│   └── LoginController.java
+│   ├── LoginController.java
+│   └── AssistenteController.java
 │
 ├── dao
 │   └── UsuarioDAO.java
@@ -134,16 +135,19 @@ src
 │   ├── MensagemIA.java
 │   ├── Questionario.java
 │   ├── Resultado.java
+│   ├── RespostaIA.java
 │   └── Usuario.java
 │
 ├── service
-│   └── AnaliseIAService.java
+│   ├── AnaliseIAService.java
+│   └── AssistenteEmocionalService.java
 │
 ├── util
 │   ├── ConnectionFactory.java
 │   └── Sessao.java
 │
 └── view
+    ├── AssistenteIAView.java
     ├── CadastroView.java
     ├── DashboardView.java
     ├── HomeView.java
@@ -173,6 +177,7 @@ Resultado
 EstadoEmocional
 HistoricoEmocional
 HumorIA
+RespostaIA
 MensagemIA
 AnaliseTextoIA
 ```
@@ -187,6 +192,7 @@ Classes:
 
 ```text
 HomeView
+AssistenteIAView
 LoginView
 CadastroView
 DashboardView
@@ -205,6 +211,7 @@ Classes:
 ```text
 CadastroController
 LoginController
+AssistenteController
 ```
 
 ---
@@ -409,7 +416,15 @@ Tela responsável pela autenticação dos usuários cadastrados no sistema.
 
 Painel principal do sistema, apresentando informações gerais e acesso às funcionalidades disponíveis.
 
-<img width="100%" alt="Dashboard" src="https://github.com/user-attachments/assets/a2d54103-5211-4698-8198-d1ff6f6759c9" />
+<img width="100%"  alt="Captura de tela 2026-06-03 181144" src="https://github.com/user-attachments/assets/34ffb3b5-d1d6-46ff-b8b6-879c9283b82a" />
+
+---
+
+## 🤖 AssistenteIA
+
+Tela voltada para interação da IA com o usuário. 
+
+<img width="100%"  alt="Captura de tela 2026-06-03 181228" src="https://github.com/user-attachments/assets/f4dc5940-e492-4ffe-9587-e59eac90bb03" />
 
 ---
 
