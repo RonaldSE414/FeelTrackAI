@@ -83,6 +83,23 @@ public class DashboardView extends JFrame {
 
         ModernButton questionario =
                 new ModernButton("Questionário");
+        
+        ModernButton assistenteIA =
+        new ModernButton("🤖 Assistente IA");
+
+assistenteIA.setBounds(
+        20,
+        300,
+        210,
+        48
+);
+
+assistenteIA.addActionListener(e -> {
+
+    dispose();
+
+    new AssistenteIAView();
+});
 
         questionario.setBounds(20,235,210,48);
 
@@ -96,7 +113,12 @@ public class DashboardView extends JFrame {
         ModernButton suporte =
                 new ModernButton("Suporte");
 
-        suporte.setBounds(20,300,210,48);
+        suporte.setBounds(
+        20,
+        365,
+        210,
+        48
+);
 
         suporte.addActionListener(e -> {
 
@@ -112,7 +134,12 @@ public class DashboardView extends JFrame {
         ModernButton relax =
                 new ModernButton("Relaxamento");
 
-        relax.setBounds(20,365,210,48);
+        relax.setBounds(
+        20,
+        430,
+        210,
+        48
+);
 
         relax.addActionListener(e -> {
 
@@ -138,12 +165,15 @@ public class DashboardView extends JFrame {
         });
 
         sidebar.add(logo);
-        sidebar.add(sub);
-        sidebar.add(dashboard);
-        sidebar.add(questionario);
-        sidebar.add(suporte);
-        sidebar.add(relax);
-        sidebar.add(sair);
+sidebar.add(sub);
+
+sidebar.add(dashboard);
+sidebar.add(questionario);
+sidebar.add(assistenteIA);
+
+sidebar.add(suporte);
+sidebar.add(relax);
+sidebar.add(sair);
 
         // ====================================================
         // TITULO
