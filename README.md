@@ -278,7 +278,7 @@ feeltrack
 | id | SERIAL |
 | nome | VARCHAR(150) |
 | email | VARCHAR(150) |
-| senha | VARCHAR(150) |
+| senha | VARCHAR(255) |
 | tipo | VARCHAR(30) |
 
 ---
