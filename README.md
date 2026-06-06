@@ -444,15 +444,13 @@ Tela destinada ao preenchimento do questionário utilizado para coleta de inform
 git clone URL_DO_REPOSITORIO
 ```
 
----
-
 ## 2. Abrir no NetBeans
 
 ```text
 Arquivo → Abrir Projeto
-```
 
----
+Selecione a pasta FeelTrackAI
+```
 
 ## 3. Criar o Banco de Dados
 
@@ -460,17 +458,14 @@ Arquivo → Abrir Projeto
 CREATE DATABASE feeltrack;
 ```
 
----
+## 4. Executar os Scripts SQL
 
-## 4. Executar o Script DDL
+Execute os arquivos na seguinte ordem:
 
-Criar as tabelas:
+1. ddd.sql
+2. dml.sql
 
-- usuario
-- questionario
-- resultado
-
----
+O arquivo dql.sql contém consultas utilizadas para testes e validações do banco de dados.
 
 ## 5. Configurar o ConnectionFactory
 
@@ -485,8 +480,6 @@ private static final String PASSWORD =
 "SUASENHA";
 ```
 
----
-
 ## 6. Executar o Sistema
 
 Executar a classe:
@@ -494,8 +487,6 @@ Executar a classe:
 ```text
 Main.java
 ```
-
----
 
 # 📈 Resultados Obtidos
 
