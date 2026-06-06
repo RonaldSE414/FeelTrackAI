@@ -4,6 +4,14 @@ package components;
 import javax.swing.*;
 import java.awt.*;
 
+/*
+ * Painel personalizado que cria uma animação de respiração.
+ * Um Timer altera continuamente o tamanho do círculo,
+ * simulando os movimentos de inspiração e expiração.
+ * O método paintComponent() desenha um efeito de brilho,
+ * o círculo principal e o texto "Respire" centralizado.
+ */
+
 public class GradientPanel extends JPanel {
 
     @Override
