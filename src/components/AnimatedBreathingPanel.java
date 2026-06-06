@@ -50,7 +50,7 @@ protected void paintComponent(Graphics g) {
 
     // Chama o método da classe pai para limpar e preparar o painel antes do desenho
     super.paintComponent(g);
-
+  // Converte o objeto Graphics para Graphics2D, que possui recursos gráficos mais avançados
     Graphics2D g2 = (Graphics2D) g;
 
     g2.setRenderingHint(
