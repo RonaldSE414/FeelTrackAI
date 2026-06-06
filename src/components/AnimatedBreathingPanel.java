@@ -52,7 +52,7 @@ protected void paintComponent(Graphics g) {
     super.paintComponent(g);
   // Converte o objeto Graphics para Graphics2D, que possui recursos gráficos mais avançados
     Graphics2D g2 = (Graphics2D) g;
-
+// Ativa o antialiasing para suavizar bordas e melhorar a qualidade visual dos desenhos
     g2.setRenderingHint(
             RenderingHints.KEY_ANTIALIASING,
             RenderingHints.VALUE_ANTIALIAS_ON
