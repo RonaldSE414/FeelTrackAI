@@ -3,7 +3,9 @@ package components;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-
+/// Esse código foi escrito para criar um botão arredondado
+/// Com o uso de EmptyBorder para dar um design simples para esse botão
+/// E por último, uma cor intuitiva (azul vibrante) para convidar o usuário a apertá-lo
 public class ModernPasswordField extends JPasswordField {
 
     public ModernPasswordField() {
