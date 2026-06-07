@@ -12,7 +12,7 @@ public class ModernButton extends JButton {
     public ModernButton(String texto) {
 
         super(texto);
-
+        // Remove os focos e as bordas padrão para garantir um design moderno, limpo e plano
         setFocusPainted(false);
 
         setBorderPainted(false);
