@@ -23,6 +23,7 @@ O projeto foi desenvolvido como atividade acadêmica do curso de Engenharia de S
 # 👨‍💻 Autores
 
 - Alisson Araújo
+- Guilherme Mendes R.
 - Artur Oliveira
 - Marcos Vynicios
 - Vladimir Gustavo
