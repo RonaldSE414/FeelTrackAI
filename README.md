@@ -1,9 +1,8 @@
-# 🧠 FeelTrackAI
+# FeelTrackAI
 ### Sistema Inteligente para Monitoramento e Análise do Bem-Estar Emocional no Ambiente Corporativo
-
 ---
 
-# 📋 Sobre o Projeto
+### Sobre o Projeto
 
 O **FeelTrackAI** é uma aplicação desktop desenvolvida em Java com o objetivo de auxiliar empresas no acompanhamento do estado emocional de seus colaboradores.
 
@@ -20,7 +19,7 @@ O projeto foi desenvolvido como atividade acadêmica do curso de Engenharia de S
 
 ---
 
-# 👨‍💻 Autores
+### Autores
 
 - Alisson Araújo
 - Guilherme Mendes R.
@@ -33,13 +32,13 @@ O projeto foi desenvolvido como atividade acadêmica do curso de Engenharia de S
 
 ---
 
-# 🎯 Objetivo Geral
+## Objetivo Geral
 
 Desenvolver uma solução computacional capaz de auxiliar no monitoramento do bem-estar emocional dos colaboradores por meio da coleta e análise de informações emocionais, contribuindo para a promoção da saúde mental no ambiente organizacional.
 
----
 
-# 🎯 Objetivos Específicos
+
+### Objetivos Específicos
 
 - Permitir cadastro de usuários.
 - Realizar autenticação de acesso.
@@ -50,34 +49,32 @@ Desenvolver uma solução computacional capaz de auxiliar no monitoramento do be
 - Armazenar informações em banco de dados PostgreSQL.
 - Aplicar padrões arquiteturais estudados em sala de aula.
 
----
+## Tecnologias Utilizadas
 
-# 🛠 Tecnologias Utilizadas
-
-## Linguagem de Programação
+#### Linguagem de Programação
 
 - Java
 
-## Interface Gráfica
+#### Interface Gráfica
 
 - Java Swing
 
-## Banco de Dados
+#### Banco de Dados
 
 - PostgreSQL
 
-## IDE
+#### IDE
 
 - Apache NetBeans
 
-## Controle de Versão
+#### Controle de Versão
 
 - Git
 - GitHub
 
 ---
 
-# 🏛 Arquitetura do Sistema
+## Arquitetura do Sistema
 
 O projeto foi desenvolvido utilizando a arquitetura **MVC (Model-View-Controller)**, promovendo a separação das responsabilidades da aplicação.
 
@@ -100,7 +97,7 @@ Essa arquitetura proporciona:
 
 ---
 
-# 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 A organização do código-fonte está estruturada da seguinte forma:
 
@@ -159,13 +156,13 @@ src
 
 ---
 
-# 🧩 Padrões de Projeto Utilizados
+## Padrões de Projeto Utilizados
 
-## MVC (Model - View - Controller)
+### MVC (Model - View - Controller)
 
 O padrão MVC foi utilizado para separar a aplicação em três camadas principais:
 
-### Model
+#### Model
 
 Responsável pelos dados da aplicação.
 
@@ -185,7 +182,7 @@ AnaliseTextoIA
 
 ---
 
-### View
+#### View
 
 Responsável pela interface gráfica.
 
@@ -203,7 +200,7 @@ ResultadoIAView
 
 ---
 
-### Controller
+#### Controller
 
 Responsável pela lógica de negócio e comunicação entre View e DAO.
 
@@ -217,7 +214,7 @@ AssistenteController
 
 ---
 
-## DAO (Data Access Object)
+#### DAO (Data Access Object)
 
 O padrão DAO foi utilizado para centralizar o acesso ao banco de dados.
 
@@ -242,7 +239,7 @@ Benefícios:
 
 ---
 
-## Singleton
+### Singleton
 
 O padrão Singleton foi aplicado à classe:
 
@@ -262,13 +259,13 @@ Vantagens:
 
 ---
 
-# 🗄 Banco de Dados
+# Banco de Dados
 
-## SGBD Utilizado
+### SGBD Utilizado
 
 PostgreSQL
 
-## Banco de Dados
+### Banco de Dados
 
 ```text
 feeltrack
@@ -276,9 +273,9 @@ feeltrack
 
 ---
 
-# 📊 Modelo Relacional
+## Modelo Relacional
 
-## Tabela Usuario
+### Tabela Usuario
 
 | Campo | Tipo |
 |---------|---------|
@@ -290,7 +287,7 @@ feeltrack
 
 ---
 
-## Tabela Questionario
+### Tabela Questionario
 
 | Campo | Tipo |
 |---------|---------|
@@ -303,7 +300,7 @@ feeltrack
 
 ---
 
-## Tabela Resultado
+### Tabela Resultado
 
 | Campo | Tipo |
 |---------|---------|
@@ -315,7 +312,7 @@ feeltrack
 
 ---
 
-# 🔗 Relacionamentos
+## Relacionamentos
 
 ```text
 USUARIO
@@ -339,9 +336,9 @@ QUESTIONARIO (1) -------- (1) RESULTADO
 
 ---
 
-# ⚙ Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
-## Cadastro de Usuários
+### Cadastro de Usuários
 
 Permite o registro de novos usuários contendo:
 
@@ -352,7 +349,7 @@ Permite o registro de novos usuários contendo:
 
 ---
 
-## Login
+### Login
 
 Autenticação através de:
 
@@ -361,7 +358,7 @@ Autenticação através de:
 
 ---
 
-## Dashboard
+### Dashboard
 
 Tela principal de acompanhamento do sistema.
 
@@ -373,7 +370,7 @@ Permite:
 
 ---
 
-## Questionário Emocional
+### Questionário Emocional
 
 Coleta informações relacionadas ao estado emocional do usuário.
 
@@ -385,7 +382,7 @@ Indicadores avaliados:
 
 ---
 
-## Resultado da Análise
+### Resultado da Análise
 
 Após o preenchimento do questionário o sistema apresenta:
 
@@ -395,9 +392,9 @@ Após o preenchimento do questionário o sistema apresenta:
 
 ---
 
-# 📸 Capturas de Tela
+## Capturas de Tela
 
-## 🏠 Tela Inicial
+### Tela Inicial
 
 Tela de entrada do sistema, responsável por apresentar a proposta do FeelTrackAI e fornecer acesso às funcionalidades de login e cadastro.
 
@@ -405,7 +402,7 @@ Tela de entrada do sistema, responsável por apresentar a proposta do FeelTrackA
 
 ---
 
-## 🔐 Tela de Login
+### Tela de Login
 
 Tela responsável pela autenticação dos usuários cadastrados no sistema.
 
@@ -413,7 +410,7 @@ Tela responsável pela autenticação dos usuários cadastrados no sistema.
 
 ---
 
-## 📊 Dashboard
+### Dashboard
 
 Painel principal do sistema, apresentando informações gerais e acesso às funcionalidades disponíveis.
 
@@ -421,7 +418,7 @@ Painel principal do sistema, apresentando informações gerais e acesso às func
 
 ---
 
-## 🤖 AssistenteIA
+### AssistenteIA
 
 Tela voltada para interação da IA com o usuário. 
 
@@ -429,7 +426,7 @@ Tela voltada para interação da IA com o usuário.
 
 ---
 
-## 📝 Questionário Emocional
+### Questionário Emocional
 
 Tela destinada ao preenchimento do questionário utilizado para coleta de informações emocionais dos usuários.
 
@@ -437,15 +434,15 @@ Tela destinada ao preenchimento do questionário utilizado para coleta de inform
 
 ---
 
-# 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
-## 1. Clonar o Repositório
+### 1. Clonar o Repositório
 
 ```bash
 git clone URL_DO_REPOSITORIO
 ```
 
-## 2. Abrir no NetBeans
+### 2. Abrir no NetBeans
 
 ```text
 Arquivo → Abrir Projeto
@@ -453,13 +450,13 @@ Arquivo → Abrir Projeto
 Selecione a pasta FeelTrackAI
 ```
 
-## 3. Criar o Banco de Dados
+### 3. Criar o Banco de Dados
 
 ```sql
 CREATE DATABASE feeltrack;
 ```
 
-## 4. Executar os Scripts SQL
+### 4. Executar os Scripts SQL
 
 Execute os arquivos na seguinte ordem:
 
@@ -468,7 +465,7 @@ Execute os arquivos na seguinte ordem:
 
 O arquivo dql.sql contém consultas utilizadas para testes e validações do banco de dados.
 
-## 5. Configurar o ConnectionFactory
+### 5. Configurar o ConnectionFactory
 
 ```java
 private static final String URL =
@@ -481,7 +478,7 @@ private static final String PASSWORD =
 "SUASENHA";
 ```
 
-## 6. Executar o Sistema
+### 6. Executar o Sistema
 
 Executar a classe:
 
@@ -489,7 +486,7 @@ Executar a classe:
 Main.java
 ```
 
-# 📈 Resultados Obtidos
+## Resultados Obtidos
 
 O sistema desenvolvido atende aos requisitos propostos para o projeto, possibilitando:
 
@@ -504,7 +501,7 @@ A adoção dos padrões MVC, DAO e Singleton proporcionou uma estrutura organiza
 
 ---
 
-# 📚 Considerações Finais
+# Considerações Finais
 
 O FeelTrackAI representa uma aplicação prática dos conhecimentos adquiridos durante a graduação em Engenharia de Software, integrando desenvolvimento desktop, banco de dados, arquitetura de software e padrões de projeto em uma solução voltada para o acompanhamento do bem-estar emocional dos colaboradores.
 
@@ -512,14 +509,14 @@ O projeto demonstra a importância da tecnologia como ferramenta de apoio à pro
 
 ---
 
-## 🎓 Curso
+### Curso
 
 Engenharia de Software
 
-## 📅 Ano
+### Ano
 
 2026
 
-## 📌 Versão
+### Versão
 
 1.0
